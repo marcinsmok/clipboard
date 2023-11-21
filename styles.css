@@ -41,9 +41,9 @@ header{
 }
 
 .logo_head{
-    margin: 5rem auto;
+    margin: 3rem auto;
+    width: 10rem;
     }
-h1,
 h2,
 h3,
 p,
@@ -56,8 +56,12 @@ p{
         margin: 1rem auto 2rem auto;
     }
 
+    h1{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
 h2{
-        margin: 1rem auto;
+        margin: 1.2rem auto;
     }
 
 h3{
@@ -81,7 +85,7 @@ div{
     border-radius: 2rem;
     border: none;
     border-bottom: 3px solid;
-    max-width: 10rem;
+    /* max-width: 10rem; */
     
 }
 
@@ -106,7 +110,7 @@ div{
 
 .client{
     max-width: 60%;
-    margin: 1rem;
+    margin-bottom: 5rem;
    
 }
 
@@ -121,22 +125,27 @@ footer{
     margin-top: 10rem;
 }
 
-nav a{
+footer a:not(.foot) {
     text-decoration: none;
     color: black;
     margin:1rem;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 1.3rem;
     
 }
 .logo_foot{
-    margin: 5rem auto;
+    margin: 2rem auto;
+    width: 3rem;
+       
 }
 
+@media (orientation: landscape) and (min-width: 1024px){
 
+button{
+max-width: 15rem;
+}
 
-
-
+}
 
 
 
